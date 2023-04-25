@@ -956,7 +956,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1410387478}
   m_HandleRect: {fileID: 1410387477}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 0.0000035903033
   m_Size: 0.9882759
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1394,6 +1394,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 610425704164462402, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704164462402, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704237247771, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704237247771, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704308380720, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704308380720, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704673254858, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704673254858, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704896305523, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704896305523, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425705318838857, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425705318838857, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
     - target: {fileID: 610425705561430956, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
       propertyPath: m_Name
       value: DBackGround
@@ -1716,7 +1764,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2130437914}
   m_Direction: 2
   m_Value: 0.99999994
-  m_Size: 0.2915
+  m_Size: 0.29149997
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

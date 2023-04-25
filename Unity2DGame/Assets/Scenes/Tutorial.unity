@@ -1092,6 +1092,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 610425704164462402, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704164462402, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704237247771, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704237247771, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704308380720, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704308380720, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704673254858, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704673254858, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704896305523, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425704896305523, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425705318838857, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 610425705318838857, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 374652015
+      objectReference: {fileID: 0}
     - target: {fileID: 610425705561430956, guid: 35a5db2e6eb2f724cba60f6c4c24b2c0, type: 3}
       propertyPath: m_Name
       value: DBackGround
