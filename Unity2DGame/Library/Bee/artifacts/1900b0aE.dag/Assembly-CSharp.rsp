@@ -370,6 +370,7 @@
 "Assets/99. Resource/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs"
 "Assets/99. Resource/Yoge/ParallaxBackground 1/Scripts/CameraMovement.cs"
 "Assets/99. Resource/Yoge/ParallaxBackground 1/Scripts/Parallax.cs"
+"Assets/ExampleManager.cs"
 "Assets/FX/CFX_LightIntensityFade.cs"
 "Assets/Save/EXPBarController.cs"
 "Assets/Save/HP/HP_Test.cs"
@@ -409,6 +410,7 @@
 "Assets/Test/tEST.cs"
 "Assets/Test/TestEXP.cs"
 "Assets/Test/TestMove.cs"
+"Assets/Textures/Test.cs"
 -langversion:9.0
 
 /deterministic
