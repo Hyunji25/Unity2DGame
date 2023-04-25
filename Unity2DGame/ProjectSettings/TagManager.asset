@@ -3,17 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Skill
+  - wall
+  - FxTemporaire
+  - EnemyBullet
+  - MonsterAttack
+  - Enemy
+  - Boss
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - EnemyBullet
+  - Bullet
+  - Monster
   - 
   - 
   - 
