@@ -347,6 +347,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/99. Resource/Bandits - Pixel Art/Demo/Bandit.cs"
+"Assets/99. Resource/Bandits - Pixel Art/Demo/Sensor_Bandit.cs"
 "Assets/FX/CFX_LightIntensityFade.cs"
 "Assets/Save/EXPBarController.cs"
 "Assets/Save/HP/HP_Test.cs"
