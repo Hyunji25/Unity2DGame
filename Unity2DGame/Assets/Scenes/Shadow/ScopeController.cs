@@ -1,4 +1,4 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +8,11 @@ public class ScopeController : MonoBehaviour
     [Range(0.0f, 180.0f)]
     public float Angle = 90.0f;
 
-    // ∞°ªÛ¿« º±¿« ∞≥ºˆ
+    // Í∞ÄÏÉÅÏùò 
     [Range(10, 360)]
     public int Segments = 30;
 
-    // π›¡ˆ∏ß 
+    // Î∞òÏßÄÎ¶Ñ
     [Range(1.0f, 50.0f)]
     public float radius = 5.0f;
 
@@ -24,20 +24,25 @@ public class ScopeController : MonoBehaviour
         Segments = 30;
         radius = 5.0f;
 
+
 #if UNITY_EDITOR
 
 #else
-        
+
 #endif
     }
 
     void Update()
     {
+        //transform.eulerAngles = new Vector3(0.0f, transform.eulerAngles.y + 15.0f * Time.deltaTime, 0.0f);
+        //transform.rotation = Quaternion.Euler(0.0f, transform.eulerAngles.y + 15.0f * Time.deltaTime, 0.0f);
+
+
+
 #if UNITY_EDITOR
-        print(transform.eulerAngles.y);
 
 #else
-        
+
 #endif
     }
 }
