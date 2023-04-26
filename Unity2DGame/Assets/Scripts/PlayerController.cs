@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
             GameObject Obj = Instantiate(BulletPrefab);
 
             // ** 복제된 총알의 위치를 현재 플레이어의 위치로 초기화한다.
-            Obj.transform.position = transform.position + new Vector3(3.0f, 1.2f, 0.0f);
+            Obj.transform.position = transform.position + new Vector3(2.5f, 1.2f, 0.0f);
 
             // ** 총알의 BullerController 스크립트를 받아온다.
             BulletController Controller = Obj.AddComponent<BulletController>();

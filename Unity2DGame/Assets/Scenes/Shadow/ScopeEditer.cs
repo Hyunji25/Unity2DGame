@@ -4,6 +4,7 @@ using UnityEditor;
 [CustomEditor(typeof(ScopeController))]
 public class ScopeEditor : Editor
 {
+    /*
     private void OnSceneGUI()
     {
         ScopeController targetCompnemt = (ScopeController)target;
@@ -33,4 +34,5 @@ public class ScopeEditor : Editor
                 targetCompnemt.transform.position + angleRightPoint * targetCompnemt.radius);
         }
     }
+     */
 }
