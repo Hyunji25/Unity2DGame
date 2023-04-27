@@ -2,11 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface AAA
-{
-    public void GetObjects();
-}
-
 public class PrefabManager
 {
     // 인스턴스 생성
