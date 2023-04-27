@@ -99,7 +99,7 @@ public class PlayerController : MonoBehaviour
             //OnAttack();
             animator.SetTrigger("Attack");
 
-            // ** 총알원본을 본제한다.
+            // ** 총알 원본을 복제한다.
             GameObject Obj = Instantiate(BulletPrefab);
 
             // ** 복제된 총알의 위치를 현재 플레이어의 위치로 초기화한다.
