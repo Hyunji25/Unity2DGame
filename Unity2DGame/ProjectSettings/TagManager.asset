@@ -12,6 +12,7 @@ TagManager:
   - MonsterAttack
   - Enemy
   - Boss
+  - EnemyClass
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - EnemyBullet
   - Bullet
   - Monster
-  - 
+  - EnemyClass
   - 
   - 
   - 

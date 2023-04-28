@@ -5,7 +5,7 @@ using UnityEngine;
 public class PrefabManager
 {
     // 인스턴스 생성
-    public static PrefabManager GetInstence { get; } = new PrefabManager();
+    public static PrefabManager GetInstance { get; } = new PrefabManager();
 
     // 데이터 저장소
     private Dictionary<string, GameObject> prototypeObjectList = new Dictionary<string, GameObject>();
@@ -25,7 +25,7 @@ public class PrefabManager
     {
         // 만약에 key가 존재한다면 원형 객체를 반환하고...
         if (prototypeObjectList.ContainsKey(key))
-            return prototypeObjectList[key];
+            return GameObject.Instantiate(prototypeObjectList[key]);
 
         // 그렇지 않을 때에는 null
         return null;

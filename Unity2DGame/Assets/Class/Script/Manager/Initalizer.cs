@@ -6,6 +6,7 @@ public class Initalizer : MonoBehaviour
 {
     private void Awake()
     {
-        var prefabManager = PrefabManager.GetInstence;
+        var prefabManager = PrefabManager.GetInstance;
+        var objectPoolManager = ObjectPoolManager.GetInstance;
     }
 }
