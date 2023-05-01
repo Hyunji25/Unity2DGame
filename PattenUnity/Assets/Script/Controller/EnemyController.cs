@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController2 : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
-    public void Initialized()
+    public void Initialize()
     {
         transform.position = new Vector3(0.0f, 10.0f, 0.0f);
     }
 
     private void Start()
     {
-        Initialized();
+        Initialize();
     }
 
     private void OnEnable()
     {
-        Initialized();
+        Initialize();
     }
 
-    private void OnDisable() // <-> OnEnable
+    private void OnDisable()
     {
         ObjectPoolManager.GetInstance.returnObject(this.gameObject);
     }

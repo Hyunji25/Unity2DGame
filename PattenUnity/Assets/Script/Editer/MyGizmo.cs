@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyGizmo2 : MonoBehaviour
+public class MyGizmo : MonoBehaviour
 {
     private void OnDrawGizmos()
     {

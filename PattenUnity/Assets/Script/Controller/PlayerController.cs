@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController2 : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     private GameObject Parent = null;
-    private string EnemyName = "Enemy2";
+    private string EnemyName = "Enemy";
 
     private void Awake()
     {
@@ -14,7 +14,7 @@ public class PlayerController2 : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if(Input.GetKeyDown(KeyCode.Return))
         {
             //Instantiate(PrefabManager.GetInstance.getPrefabByName(EnemyName)).transform.SetParent(Parent.transform);
             //ObjectPoolManager.GetInstance.getObject(EnemyName).transform.SetParent(Parent.transform);

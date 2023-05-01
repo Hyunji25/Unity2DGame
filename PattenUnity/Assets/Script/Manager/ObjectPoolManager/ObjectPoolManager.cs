@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public class Controller
+{
+    public void Initialize()
+    {
+
+    }
+};
+
 public class ObjectPoolManager
 {
     public static ObjectPoolManager GetInstance { get; } = new ObjectPoolManager();
@@ -10,29 +18,27 @@ public class ObjectPoolManager
 
     private Dictionary<string, Stack<GameObject>> DisableList = new Dictionary<string, Stack<GameObject>>();
 
+
     public GameObject getObject(string key)
     {
-        Stack<GameObject> stack;
+        Stack<GameObject> stack = null;
         GameObject prefab = null;
 
-        if (DisableList.TryGetValue(key, out stack) && stack.Count >= 0)
+        if (DisableList.TryGetValue(key, out stack) && stack.Count > 0)
             prefab = stack.Pop();
         else
         {
             prefab = PrefabManager.GetInstance.getPrefabByName(key);
-            
+
             if (prefab == null)
                 return null;
 
             prefab.name = key;
         }
 
-        prefab.SetActive(true);
-
-        // √ ±‚»≠
-
         return prefab;
     }
+
 
     public void returnObject(GameObject Obj)
     {
